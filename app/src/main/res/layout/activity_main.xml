@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#D0E6D3B7"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="220dp"
+            android:layout_marginBottom="90dp"
+            android:breakStrategy="simple"
+            android:fontFamily="monospace"
+            android:text="Total Conta:"
+            android:textColor="#263226"
+            android:textSize="21dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.352"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.626" />
+
+        <EditText
+            android:id="@+id/txtNro1"
+            android:layout_width="195dp"
+            android:layout_height="53dp"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="110dp"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.569"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.505" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="176dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="220dp"
+            android:fontFamily="monospace"
+            android:text="Total Amigos:"
+            android:textColor="#263226"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.428"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.386" />
+
+        <EditText
+            android:id="@+id/txtNro2"
+            android:layout_width="195dp"
+            android:layout_height="53dp"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="25dp"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.569"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.561" />
+
+        <Button
+            android:id="@+id/btDividir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="190dp"
+            android:background="#687758"
+            android:backgroundTint="#687758"
+            android:text="Dividir!!"
+            android:textStyle="bold"
+            app:iconTint="#009C4848"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.469"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.553" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="677dp"
+            android:layout_height="318dp"
+            android:layout_marginBottom="500dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.87"
+            app:srcCompat="@drawable/image_img01" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="192dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="230dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="400dp"
+            android:autoText="false"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Conta Amiga!!"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
